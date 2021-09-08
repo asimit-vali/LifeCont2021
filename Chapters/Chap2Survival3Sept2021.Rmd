@@ -695,7 +695,7 @@ colnames(tmp_life_table_us_mx_fem_2014)[5]<- "lx US Females"
 
 rownames(tmp_life_table_us_mx_fem_2014) <- NULL
 #kable(tmp_life_table_us_mx_fem_2014, digits = 9, format.args = list(big.mark = ","), align = "ccrrr")
-DT::datatable(tmp_life_table_us_mx_fem_2014)
+#DT::datatable(tmp_life_table_us_mx_fem_2014)
 
 ```
 And for males:
@@ -704,7 +704,7 @@ tmp_life_table_us_mx_mal_2014 <-round(us_mx_mal_2014, digits = 9);
 colnames(tmp_life_table_us_mx_mal_2014)[5]<- "lx US Males"
 rownames(tmp_life_table_us_mx_mal_2014) <- NULL
 #kable(tmp_life_table_us_mx_mal_2014, digits = 9, format.args = list(big.mark = ","), align = "ccrrr") 
-DT::datatable(tmp_life_table_us_mx_mal_2014) 
+#DT::datatable(tmp_life_table_us_mx_mal_2014) 
 ```
 
 The $l_x$ values are now plotted in Figure \@ref(fig:LxMalFemDataFigsa) where once again the female subpopulation shows higher survivorship trend than the male subpopulation.
